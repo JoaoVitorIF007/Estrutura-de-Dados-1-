@@ -1,0 +1,32 @@
+# Estrutura-de-Dados-1-
+Atividade 2
+
+//CLASSE
+
+package ola_mundo2_ed1;
+
+/**
+ *
+ * @author Joao Vitor
+ */
+public class OlaMundo {
+    char Turma = 'a';
+}
+
+//MAIN
+public class Ola_Mundo2_ED1 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        OlaMundo objeto1 = new OlaMundo();
+        OlaMundo objeto2 = new OlaMundo();
+        objeto2.Turma = 'c';
+        System.out.println("Ola Mundo Turma "+objeto1.Turma);
+        System.out.println("Nova Turma Adicionada: "+objeto2.Turma);
+        
+    }
+    
+}
