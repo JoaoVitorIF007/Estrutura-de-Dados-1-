@@ -1,0 +1,51 @@
+# Estrutura-de-Dados-1-
+Atividade 3
+
+//CLASSE
+package algoritmo40;
+
+/**
+ *
+ * @author Joao Vitor
+ */
+public class Divisao {
+    int dividendo;
+    int divisor;
+    int quociente;
+    int resto;
+    
+}
+
+
+//MAIN
+package algoritmo40;
+
+/**
+ *
+ * @author Joao Vitor
+ */
+public class Algoritmo40 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Divisao operacaoDeDivisao = new Divisao();
+        
+        operacaoDeDivisao.dividendo = 10;
+        operacaoDeDivisao.divisor = 3;
+        operacaoDeDivisao.quociente = operacaoDeDivisao.dividendo / operacaoDeDivisao.divisor;
+        operacaoDeDivisao.resto = operacaoDeDivisao.dividendo % operacaoDeDivisao.divisor;
+        
+        System.out.println("O Dividendo é: "+operacaoDeDivisao.dividendo);
+                System.out.println("O Divisor é: "+operacaoDeDivisao.divisor);
+                        System.out.println("O quociente é: "+operacaoDeDivisao.quociente);
+                                System.out.println("O Dividendo é: "+operacaoDeDivisao.dividendo);
+
+
+
+                
+    }
+    
+}
