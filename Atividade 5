@@ -1,6 +1,6 @@
 //ESTRUTURA DE DADOS
 //JOÃO VÍTOR MENDES BORGES 5° PERIODO BCC
-//Atividade 1
+//Atividade 5 GITHUB
 public class ED1 {
     public static void main(String[] args) throws Exception {
         System.out.println("raiz: ,raiz(64);");
